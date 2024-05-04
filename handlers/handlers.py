@@ -3,7 +3,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
-from databasa.db_connection import connect_insert
+from database.db_connection import connect_insert
 
 router = Router()
 

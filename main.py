@@ -1,10 +1,10 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from config import TOKEN
+from settings import settings
 from handlers.handlers import router
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=settings.TG_KEY)
 dp = Dispatcher()
 
 async def main():
